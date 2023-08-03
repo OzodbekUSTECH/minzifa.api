@@ -4,7 +4,7 @@ from fastapi_cache import FastAPICache
 from fastapi_cache.backends.redis import RedisBackend
 from redis import asyncio as aioredis
 
-from api.routers import all_routers
+from api import all_routers
 
 app = FastAPI(title="CRM-UT")
 

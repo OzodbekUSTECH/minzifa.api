@@ -7,8 +7,6 @@ from sqlalchemy.engine import Connection
 from sqlalchemy.ext.asyncio import async_engine_from_config
 
 from app.models import Base
-# from models.users import User
-# from models.posts import Post
 
 config = context.config
 config.set_main_option("sqlalchemy.url", "postgresql+asyncpg://postgres:77girado@localhost/fastapidb")
